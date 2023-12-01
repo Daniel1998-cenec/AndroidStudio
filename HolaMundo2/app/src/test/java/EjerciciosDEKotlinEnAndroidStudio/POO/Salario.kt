@@ -1,4 +1,4 @@
-package POO
+package EjerciciosDEKotlinEnAndroidStudio.POO
 
 class Salario {
     var nombre: String = ""

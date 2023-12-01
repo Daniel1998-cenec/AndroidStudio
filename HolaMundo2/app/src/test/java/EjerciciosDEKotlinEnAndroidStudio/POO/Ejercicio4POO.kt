@@ -1,4 +1,4 @@
-package POO
+package EjerciciosDEKotlinEnAndroidStudio.POO
 
 class Cliente constructor(nombre: String, apellido: String, tipo: String, ingresos: Double) {
     var nombre: String = nombre

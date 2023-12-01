@@ -1,4 +1,4 @@
-package primeroPaso2111
+package EjerciciosDEKotlinEnAndroidStudio.primeroPaso2111
 
 fun main(){
     //for

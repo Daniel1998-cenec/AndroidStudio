@@ -1,4 +1,4 @@
-package POO
+package EjerciciosDEKotlinEnAndroidStudio.POO
 
 class Persona {
     var nombre: String = ""
