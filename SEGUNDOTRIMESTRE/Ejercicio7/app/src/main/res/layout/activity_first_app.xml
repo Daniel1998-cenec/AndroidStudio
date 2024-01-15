@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="ejercicio7.FirstAppActivity">
+
+    <ImageView
+        android:id="@+id/imagen_fondo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/agua"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Completa el formulario"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="60dp"
+        android:text="Escribe tu nombre"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etName"
+        android:layout_width="288dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:maxLines="1"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombre"
+        />
+
+
+    <TextView
+        android:id="@+id/apellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="40dp"
+        android:text="Escribe tus apellidos"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etName" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/apellidosEnter"
+        android:layout_width="288dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:maxLines="1"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apellidos" />
+
+
+    <TextView
+        android:id="@+id/Curso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="76dp"
+        android:text="Escribe tu curso"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apellidosEnter" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/cursoEnter"
+        android:layout_width="288dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:maxLines="1"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Curso" />
+
+
+    <TextView
+        android:id="@+id/asignatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="40dp"
+        android:text="Escribe tu asignatura"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cursoEnter" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/asignaturaEnter"
+        android:layout_width="288dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:maxLines="1"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/asignatura" />
+
+
+    <TextView
+        android:id="@+id/nota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="88dp"
+        android:text="Escribe tu nota"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/asignaturaEnter" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/notaEnter"
+        android:layout_width="288dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:maxLines="1"
+        android:singleLine="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nota" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/purple_200"
+        android:text="Pulsame"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notaEnter" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

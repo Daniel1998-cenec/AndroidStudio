@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a.a.Actividades0801.Actividad2">
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@color/purple_200"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="top"
+        android:background="#0026FF"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom"
+        android:background="#8BC34A"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="627dp" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="top|end"
+        android:background="#FF1100"
+        tools:layout_editor_absoluteX="311dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|end"
+        android:background="#FF9800"
+        tools:layout_editor_absoluteX="311dp"
+        tools:layout_editor_absoluteY="627dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|end"
+        android:background="#808080"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="bottom|end"
+        android:background="#FFE600"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="311dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
