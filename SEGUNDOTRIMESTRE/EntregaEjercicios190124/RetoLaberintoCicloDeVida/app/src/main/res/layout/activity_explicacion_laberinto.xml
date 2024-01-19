@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExplicacionLaberinto">
+
+    <TextView
+        android:id="@+id/TextoInicio"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Objetivo del laberinto:
+                      Llegar hasta el final
+                      sin equivocarte.
+                      ¿Lo lograrás?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnEmpezarLaberinto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Empezar Laberinto"
+        android:layout_below="@+id/TextoInicio"
+        android:layout_marginTop="25dp"
+        />
+
+</RelativeLayout>
