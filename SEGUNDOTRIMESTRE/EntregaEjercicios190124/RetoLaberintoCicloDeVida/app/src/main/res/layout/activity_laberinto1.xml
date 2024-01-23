@@ -11,10 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:gravity="center"
-        android:text="D"
         android:layout_marginTop="25dp"
-        />
+        android:gravity="center"
+        android:text="D" />
 
     <Button
         android:id="@+id/btnB"
@@ -24,6 +23,7 @@
         android:text="F"
         android:layout_below="@+id/btnA"
         android:layout_marginTop="50dp"
+
         />
 
 </RelativeLayout>
