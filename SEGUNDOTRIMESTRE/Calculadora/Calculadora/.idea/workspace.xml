@@ -31,50 +31,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c600852c-37cf-42db-bcd1-9b80500f7c2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../CasaCalculadora/app/src/main/java/com/example/calculadoracasaa/CalculadoraMain.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CasaCalculadora/app/src/main/java/com/example/calculadoracasaa/CalculadoraSuprema.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CasaCalculadora/app/src/main/res/layout/activity_calculadora_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CasaCalculadora/app/src/main/res/layout/activity_calculadora_suprema.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CicloDeVida1501/app/src/main/java/com/example/ciclodevida/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CicloDeVida1501/app/src/main/java/com/example/ciclodevida/SecondActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CicloDeVida1501/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CicloDeVida1501/app/src/main/res/layout/activity_second.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CicloDeVidaEjercicio16012024/app/src/main/java/com/example/ciclodevidaejercicio16012024/ActivityA.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CicloDeVidaEjercicio16012024/app/src/main/java/com/example/ciclodevidaejercicio16012024/ActivityB.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CicloDeVidaEjercicio16012024/app/src/main/res/layout/activity_activity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CicloDeVidaEjercicio16012024/app/src/main/res/layout/activity_b.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CicloDeVidaEjercicio316012024/app/src/main/java/com/example/ciclodevidaejercicio316012024/PantallaA.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CicloDeVidaEjercicio316012024/app/src/main/java/com/example/ciclodevidaejercicio316012024/PantallaB.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CicloDeVidaEjercicio316012024/app/src/main/java/com/example/ciclodevidaejercicio316012024/PantallaC.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CicloDeVidaEjercicio316012024/app/src/main/java/com/example/ciclodevidaejercicio316012024/PantallaD.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CicloDeVidaEjercicio316012024/app/src/main/res/layout/activity_pantalla.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CicloDeVidaEjercicio316012024/app/src/main/res/layout/activity_pantalla_b.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CicloDeVidaEjercicio316012024/app/src/main/res/layout/activity_pantalla_c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../CicloDeVidaEjercicio316012024/app/src/main/res/layout/activity_pantalla_d.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicio7/.idea/deploymentTargetDropDown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Ejercicio7/.idea/migrations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RetoLaberintoCicloDeVida/app/src/main/java/com/example/retolaberintociclodevida/EquivocacionLaberinto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RetoLaberintoCicloDeVida/app/src/main/java/com/example/retolaberintociclodevida/ExplicacionLaberinto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RetoLaberintoCicloDeVida/app/src/main/java/com/example/retolaberintociclodevida/GanadorLaberinto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RetoLaberintoCicloDeVida/app/src/main/java/com/example/retolaberintociclodevida/Laberinto1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RetoLaberintoCicloDeVida/app/src/main/java/com/example/retolaberintociclodevida/Laberinto2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RetoLaberintoCicloDeVida/app/src/main/java/com/example/retolaberintociclodevida/Laberinto3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RetoLaberintoCicloDeVida/app/src/main/java/com/example/retolaberintociclodevida/Laberinto4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RetoLaberintoCicloDeVida/app/src/main/res/layout/activity_equivocacion_laberinto.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RetoLaberintoCicloDeVida/app/src/main/res/layout/activity_explicacion_laberinto.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RetoLaberintoCicloDeVida/app/src/main/res/layout/activity_ganador_laberinto.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RetoLaberintoCicloDeVida/app/src/main/res/layout/activity_laberinto1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RetoLaberintoCicloDeVida/app/src/main/res/layout/activity_laberinto2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RetoLaberintoCicloDeVida/app/src/main/res/layout/activity_laberinto3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../RetoLaberintoCicloDeVida/app/src/main/res/layout/activity_laberinto4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ExamenAndroidStudio/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ExamenAndroidStudio/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ejercicio7/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicio7/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ejercicio7/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicio7/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ejercicio7/app/src/main/java/com/example/ejercicio7/ejercicio7/FirstAppActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Ejercicio7/app/src/main/java/com/example/ejercicio7/ejercicio7/FirstAppActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../MainActivity/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../MainActivity/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PhonelandPRoyectProfeejercicio6/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PhonelandPRoyectProfeejercicio6/.idea/gradle.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c600852c-37cf-42db-bcd1-9b80500f7c2a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +98,10 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/BEEP/Documents/GitHub/DAM2/AndroidStudio/SEGUNDOTRIMESTRE/Calculadora/Calculadora"
+    "last_opened_file_path": "C:/Users/BEEP/Documents/GitHub/DAM2/AndroidStudio/SEGUNDOTRIMESTRE/Calculadora/Calculadora",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunManager">
