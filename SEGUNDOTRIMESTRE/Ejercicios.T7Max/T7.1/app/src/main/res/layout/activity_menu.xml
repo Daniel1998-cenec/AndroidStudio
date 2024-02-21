@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Almacenamiento1">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Actividades Tema 7.1"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnAct1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Actividad 1" />
+
+    <Button
+        android:id="@+id/btnAct2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAct1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Actividad 2" />
+
+    <Button
+        android:id="@+id/btnAct3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAct2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Actividad 3" />
+
+    <Button
+        android:id="@+id/btnActReto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAct3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Actividad Reto" />
+
+</RelativeLayout>

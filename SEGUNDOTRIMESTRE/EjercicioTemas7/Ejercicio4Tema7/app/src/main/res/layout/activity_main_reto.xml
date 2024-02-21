@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Ejercicio4.MainActivityReto">
+
+    <EditText
+        android:id="@+id/etTema"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Tema" />
+
+    <EditText
+        android:id="@+id/etProfesor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Profesor" />
+
+    <EditText
+        android:id="@+id/etNumAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="numero de alumno" />
+
+    <EditText
+        android:id="@+id/etNumAula"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Numero de aula" />
+
+    <EditText
+        android:id="@+id/ettrimestre"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Trimestre" />
+
+    <EditText
+        android:id="@+id/etnumSuspenso"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Numero de suspenso" />
+
+    <EditText
+        android:id="@+id/etidAlumno"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="ID Profesor" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:columnCount="3">
+
+        <Button
+            android:id="@+id/btnAgregar"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Agregar" />
+
+        <Button
+            android:id="@+id/btnModificar"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="Modificar" />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:text="Eliminar" />
+
+        <Button
+            android:id="@+id/btnMostrar"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_columnSpan="2"
+            android:text="Mostrar Datos (Todos)" />
+
+        <EditText
+            android:id="@+id/etId"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/purple_200"
+            android:hint="Id"
+            android:textAlignment="center"
+            android:textColorHint="@color/white" />
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:gravity="center_horizontal"
+        android:text="Para modificar un registro pon el id y dale a 'mostrar datos', desde ahi modifica lo que necesites y dale a 'modificar datos'."
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvMuestraNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
