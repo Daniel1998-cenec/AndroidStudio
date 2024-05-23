@@ -5,13 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CardviewYRegistroUsuario.MainActivity">
+    tools:context=".NuevoUsuario.NuevoUsuario">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardview"
         android:layout_width="223dp"
         android:layout_height="193dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="70dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,53 +23,84 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/cenec" />
+            android:src="@drawable/delivery2" />
     </androidx.cardview.widget.CardView>
 
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="228dp"
-        android:text="Virtual CENEC"
+        android:layout_marginTop="25dp"
+        android:text="@string/registro_de_nuevo_usuario"
         android:textColor="@color/black"
-        android:textSize="45sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/cardview" />
+        app:layout_constraintTop_toBottomOf="@id/cardview"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="36dp" />
 
     <EditText
         android:id="@+id/etNombre"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginTop="50dp"
-        android:hint="nombre"
+        android:hint="Nombre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/title" />
 
     <EditText
+        android:id="@+id/etPrimerApellido"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Primer apellido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etNombre" />
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Numero de telefono"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etPrimerApellido" />
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Correo electrónico"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTelefono" />
+
+    <EditText
         android:id="@+id/etPass"
         android:layout_width="350dp"
         android:layout_height="50dp"
-        android:layout_marginTop="20dp"
         android:hint="contraseña"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etNombre" />
+        app:layout_constraintTop_toBottomOf="@+id/etCorreo" />
 
     <Button
-        android:id="@+id/btnLogin"
+        android:id="@+id/btnRegistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="LOGIN"
+        android:text="Registro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etPass" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

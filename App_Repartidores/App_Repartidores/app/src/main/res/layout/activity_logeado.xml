@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Logeado.Logeado">
+
+    <!-- Botón para volver al menú de inicio -->
+
+
+    <TextView
+        android:id="@+id/textViewData"
+        android:layout_width="287dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="100dp"
+        android:padding="16dp"
+        android:text="Información de la base de datos"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonsalir"
+        android:layout_width="67dp"
+        android:layout_height="66dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="556dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Actualizar Datos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewData" />
+
+    <Button
+        android:id="@+id/buttonOpenWindow"
+        android:layout_width="108dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="40dp"
+        android:text="Abrir Ventana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonUpdate" />
+
+    <!-- Botón verde 2 -->
+
+    <!-- Botón rojo 1 -->
+
+    <!-- Botón rojo 2 -->
+
+    <TextView
+        android:id="@+id/textViewCollectData"
+        android:layout_width="299dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="384dp"
+        android:padding="16dp"
+        android:text="Recopilar Datos"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonGreen1"
+        android:layout_width="72dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="392dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonGreen2"
+        android:layout_width="72dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="548dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCollectData2"
+        android:layout_width="301dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="548dp"
+        android:padding="16dp"
+        android:text="Recopilar Datos"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRed1"
+        android:layout_width="72dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginBottom="76dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRed2"
+        android:layout_width="72dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="232dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonGreen1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout >
