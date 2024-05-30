@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConexionBbdd.GestorPedidos">
+
+    <!-- Título "Pedidos entregados" a la izquierda -->
+    <TextView
+        android:id="@+id/textViewPedidosEntregados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:text="Pedidos entregados"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- ScrollView para contenido "Pedidos entregados" -->
+    <ScrollView
+        android:id="@+id/scrollViewPedidosEntregados"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="@id/textViewPedidosEntregados"
+        app:layout_constraintEnd_toEndOf="@id/textViewPedidosEntregados"
+        app:layout_constraintTop_toBottomOf="@id/textViewPedidosEntregados"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/PedidosEntregados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recopilar Datos"
+            android:textSize="13sp"
+            android:padding="16dp"/>
+    </ScrollView>
+
+    <!-- Título "Pedidos No entregados" a la derecha -->
+    <TextView
+        android:id="@+id/textViewPedidosNoEntregados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="Pedidos no entregados"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@id/textViewPedidosEntregados"
+        app:layout_constraintTop_toTopOf="@id/textViewPedidosEntregados" />
+
+    <!-- ScrollView para contenido "Pedidos no entregados" -->
+    <ScrollView
+        android:id="@+id/scrollViewPedidosNoEntregados"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="@id/textViewPedidosNoEntregados"
+        app:layout_constraintEnd_toEndOf="@id/textViewPedidosNoEntregados"
+        app:layout_constraintTop_toBottomOf="@id/textViewPedidosNoEntregados"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/PedidosNoEntregados"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recopilar Datos"
+            android:textSize="13sp"
+            android:padding="16dp"/>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -45,7 +45,7 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginTop="50dp"
-        android:hint="nombre"
+        android:hint="Nombre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/title" />
@@ -55,7 +55,7 @@
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginTop="20dp"
-        android:hint="contraseña"
+        android:hint="Contraseña"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

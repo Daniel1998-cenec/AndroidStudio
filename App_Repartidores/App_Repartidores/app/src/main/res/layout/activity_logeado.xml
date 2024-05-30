@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Logeado.Logeado">
+    tools:context=".ConexionBbdd.Logeado">
 
     <!-- Botón para volver al menú de inicio -->
 
@@ -25,12 +25,12 @@
 
     <Button
         android:id="@+id/buttonsalir"
-        android:layout_width="67dp"
-        android:layout_height="66dp"
+        android:layout_width="78dp"
+        android:layout_height="65dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="556dp"
         android:backgroundTint="@android:color/holo_red_light"
-        android:text=""
+        android:text="Salir"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -50,7 +50,7 @@
         android:layout_width="108dp"
         android:layout_height="66dp"
         android:layout_marginTop="40dp"
-        android:text="Abrir Ventana"
+        android:text="Gestor de pedido"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
@@ -112,8 +112,8 @@
         android:id="@+id/buttonRed1"
         android:layout_width="72dp"
         android:layout_height="43dp"
-        android:layout_marginStart="320dp"
-        android:layout_marginBottom="76dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginBottom="96dp"
         android:backgroundTint="@android:color/holo_red_light"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
@@ -124,7 +124,7 @@
         android:layout_width="72dp"
         android:layout_height="43dp"
         android:layout_marginEnd="12dp"
-        android:layout_marginBottom="232dp"
+        android:layout_marginBottom="252dp"
         android:backgroundTint="@android:color/holo_red_light"
         android:text=""
         app:layout_constraintBottom_toBottomOf="parent"

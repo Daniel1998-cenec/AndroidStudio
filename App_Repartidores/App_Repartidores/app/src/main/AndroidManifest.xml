@@ -12,12 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App_repartidores"
         tools:targetApi="31">
-
         <activity
-            android:name=".Logeado.Logeado"
+            android:name=".ConexionBbdd.GestorPedidos"
             android:exported="false" />
         <activity
-            android:name=".NuevoUsuario.NuevoUsuario"
+            android:name=".ConexionBbdd.Mostrar_Registro"
+            android:exported="false" />
+        <activity
+            android:name=".ConexionBbdd.Logeado"
+            android:exported="false" />
+        <activity
+            android:name=".ConexionBbdd.Registro"
             android:exported="false" />
         <activity
             android:name=".Menu"

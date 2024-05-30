@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NuevoUsuario.NuevoUsuario">
+    tools:context=".ConexionBbdd.Registro">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardview"
@@ -46,7 +46,7 @@
         android:id="@+id/etNombre"
         android:layout_width="350dp"
         android:layout_height="50dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:hint="Nombre"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,45 +62,65 @@
         app:layout_constraintTop_toBottomOf="@id/etNombre" />
 
     <EditText
-        android:id="@+id/etTelefono"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:hint="Numero de telefono"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/etPrimerApellido" />
-
-    <EditText
-        android:id="@+id/etCorreo"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:hint="Correo electrónico"
-        android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etTelefono" />
-
-    <EditText
         android:id="@+id/etPass"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:hint="contraseña"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPrimerApellido" />
+
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Numero de telefono"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etPass" />
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Correo electrónico"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etTelefono" />
+
+    <EditText
+        android:id="@+id/etCentro"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Centro"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etCorreo" />
+
 
     <Button
         android:id="@+id/btnRegistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="60dp"
         android:text="Registro"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etPass" />
+        app:layout_constraintTop_toBottomOf="@+id/etCorreo" />
 
-
+    <Button
+        android:id="@+id/btnVerDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Gestor de usuario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCorreo" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
