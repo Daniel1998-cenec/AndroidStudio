@@ -10,6 +10,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
@@ -34,26 +35,35 @@ class Logeado : AppCompatActivity() {
         val btnNoEntregadoPedido2 = findViewById<Button>(R.id.buttonRed2)
 
         val nombreUsuario = intent.getStringExtra("nombreUsuario")
-        val centroUsuario = intent.getStringExtra("centroUsuario")
+        val dataManager = DataManager(this)
+        val centroUsuario = nombreUsuario?.let { dataManager.getCentroUsuario(it) }
 
         if (nombreUsuario != null && centroUsuario != null) {
             textViewData.text = "¡¡Bienvenido, $nombreUsuario!!\nCentro: $centroUsuario"
         }
 
         btnSalir.setOnClickListener {
-            // Crear un editor para las preferencias compartidas
-            val sharedPreferences = getSharedPreferences("EstadoPedidos", Context.MODE_PRIVATE)
-            val editor = sharedPreferences.edit()
+            // Crear un diálogo de alerta para confirmar la acción
+            AlertDialog.Builder(this)
+                .setTitle("Confirmar salida")
+                .setMessage("¿Seguro que quieres salir? Perderás todos tus datos.")
+                .setPositiveButton("Sí") { dialog, which ->
+                    // Crear un editor para las preferencias compartidas
+                    val sharedPreferences = getSharedPreferences("EstadoPedidos", Context.MODE_PRIVATE)
+                    val editor = sharedPreferences.edit()
 
-            // Borrar todos los datos de las preferencias compartidas
-            editor.clear()
-            editor.apply()
+                    // Borrar todos los datos de las preferencias compartidas
+                    editor.clear()
+                    editor.apply()
 
-            // Ir a la actividad del menú
-            val intent = Intent(this, Menu::class.java)
-            startActivity(intent)
-            Toast.makeText(this, "¡Le has dado al botón Salir!", Toast.LENGTH_SHORT).show()
-            Log.d(ContentValues.TAG, "Botón Salir funcionando perfectamente")
+                    // Ir a la actividad del menú
+                    val intent = Intent(this, Menu::class.java)
+                    startActivity(intent)
+                    Toast.makeText(this, "¡Le has dado al botón Salir!", Toast.LENGTH_SHORT).show()
+                    Log.d(ContentValues.TAG, "Botón Salir funcionando perfectamente")
+                }
+                .setNegativeButton("No", null)
+                .show()
         }
 
         btnGestorPedidos.setOnClickListener {
@@ -157,8 +167,6 @@ class Logeado : AppCompatActivity() {
                 Toast.makeText(this, "No hay pedido seleccionado", Toast.LENGTH_SHORT).show()
             }
         }
-
-
 
     }
 

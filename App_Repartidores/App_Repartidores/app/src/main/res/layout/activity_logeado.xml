@@ -45,22 +45,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewData" />
 
-    <Button
-        android:id="@+id/buttonOpenWindow"
-        android:layout_width="108dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="40dp"
-        android:text="Gestor de pedido"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/buttonUpdate" />
-
     <!-- Botón verde 2 -->
 
     <!-- Botón rojo 1 -->
 
     <!-- Botón rojo 2 -->
+
+    <Button
+        android:id="@+id/buttonOpenWindow"
+        android:layout_width="117dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="28dp"
+        android:text="Gestor de pedido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonUpdate" />
 
     <TextView
         android:id="@+id/textViewCollectData"

@@ -42,13 +42,12 @@ class Menu : AppCompatActivity() {
                 val isUserValid = dataManager.verifyUser(nombre, contrasenia)
 
                 if (isUserValid) {
-                    // Recuperar el centro de SharedPreferences
-                    val sharedPreferences = getSharedPreferences("userPrefs", Context.MODE_PRIVATE)
-                    val centro = sharedPreferences.getString("centroUsuario", "")
+                    // Recuperar el centro del usuario desde la base de datos
+                    val centroUsuario = dataManager.getCentroUsuario(nombre)
 
                     val intent = Intent(this, Logeado::class.java)
                     intent.putExtra("nombreUsuario", nombre)
-                    intent.putExtra("centroUsuario", centro)
+                    intent.putExtra("centroUsuario", centroUsuario)
                     startActivity(intent)
                     Toast.makeText(this, "¡Te has logeado!", Toast.LENGTH_SHORT).show()
                     Log.d(ContentValues.TAG, "Botón login funcionando correctamente")

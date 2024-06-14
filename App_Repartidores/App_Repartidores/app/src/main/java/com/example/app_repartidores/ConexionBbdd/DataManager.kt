@@ -195,4 +195,22 @@ class DataManager(context: Context) { // class
             addPedido(nombresPedidos[i], callesPedidos[i], telefonosClientes[i], importesPedidos[i])
         }
     }
-} 
+
+    @SuppressLint("Range")
+    fun getCentroUsuario(nombreUsuario: String): String? {
+        val db = dbHelper.readableDatabase
+        val cursor = db.rawQuery("SELECT ${DatabaseHelper.COLUMN_CENTRO} FROM ${DatabaseHelper.TABLE_NAME} WHERE ${DatabaseHelper.COLUMN_NOMBRE} = ?", arrayOf(nombreUsuario))
+
+        var centroUsuario: String? = null
+        if (cursor.moveToFirst()) {
+            centroUsuario = cursor.getString(cursor.getColumnIndex(DatabaseHelper.COLUMN_CENTRO))
+        }
+
+        cursor.close()
+        db.close()
+
+        return centroUsuario
+    }
+
+}
+
